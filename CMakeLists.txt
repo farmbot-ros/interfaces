@@ -1,9 +1,13 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.15)
 project(farmbot_interfaces)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
+cmake_policy(SET CMP0074 NEW)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+include(FetchContent)
+
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
