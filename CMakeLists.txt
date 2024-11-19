@@ -39,6 +39,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Float64Stamped.msg"
   "msg/Waypoints.msg"
   "msg/Waypoint.msg"
+  "msg/State.msg"
+  "msg/States.msg"
   "msg/Segment.msg"
   "msg/Segments.msg"
   "msg/Borders.msg"
