@@ -32,6 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Enu2Gps.srv"
   "srv/Threshold.srv"
   "srv/Trigger.srv"
+  "srv/Value.srv"
   "srv/Spawn.srv"
   "srv/GoToField.srv"
   "srv/GetTheField.srv"
