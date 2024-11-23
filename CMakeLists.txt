@@ -18,7 +18,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/Nav.action"
+  "action/Segments.action"
   "action/Obstacle.action"
   "action/Waypoints.action"
   "action/Control.action"

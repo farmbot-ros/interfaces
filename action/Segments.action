@@ -1,5 +1,5 @@
 # Goal
-farmbot_interfaces/Waypoints mission
+farmbot_interfaces/Segments mission
 std_msgs/String controller
 ---
 # Result
