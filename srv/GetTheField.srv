@@ -1,3 +1,4 @@
 string geojson_file
 ---
 sensor_msgs/NavSatFix[] field
+geometry_msgs/Point[] points
