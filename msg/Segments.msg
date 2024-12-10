@@ -1,2 +1,2 @@
 std_msgs/Header header
-farmbot_interfaces/Segment[] segments
+farmbot_interfaces/Swath[] swaths

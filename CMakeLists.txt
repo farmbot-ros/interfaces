@@ -44,6 +44,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/States.msg"
   "msg/Segment.msg"
   "msg/Segments.msg"
+  "msg/Swath.msg"
+  "msg/Swaths.msg"
   "msg/Borders.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs sensor_msgs
 )
