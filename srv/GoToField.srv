@@ -1,4 +1,4 @@
-sensor_msgs/NavSatFix start
-sensor_msgs/NavSatFix end
+geometry_msgs/Pose point
 ---
 sensor_msgs/NavSatFix[] waypoints
+geometry_msgs/Point[] points
