@@ -47,6 +47,17 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Swath.msg"
   "msg/Swaths.msg"
   "msg/Borders.msg"
+
+  # geospatial messages
+  "msg/GeoJson.msg"
+  "msg/Cordinate.msg"
+  "msg/Cordinates.msg"
+  "msg/Geometry.msg"
+  "msg/Feature.msg"
+  "msg/Propertie.msg"
+  "msg/GeoTiff.msg"
+  "msg/Band.msg"
+  "msg/Grid.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs sensor_msgs
 )
 
