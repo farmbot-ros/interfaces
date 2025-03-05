@@ -48,6 +48,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Swaths.msg"
   "msg/Borders.msg"
   "msg/PolygonArray.msg"
+  "msg/Beacon.msg"
+  "msg/Beacons.msg"
 
   # geospatial messages
   "msg/GeoJson.msg"
