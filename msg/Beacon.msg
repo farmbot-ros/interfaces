@@ -1,3 +1,3 @@
 string uuid
 string name
-string capability
+string function
