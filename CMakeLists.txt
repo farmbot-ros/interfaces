@@ -34,8 +34,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Trigger.srv"
   "srv/Value.srv"
   "srv/Spawn.srv"
-  "srv/GoToField.srv"
-  "srv/GetTheField.srv"
+  "srv/Field.srv"
+
 
   # basic meassages
   "msg/Float32Stamped.msg"
