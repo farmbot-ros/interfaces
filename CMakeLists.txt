@@ -36,6 +36,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Spawn.srv"
   "srv/GoToField.srv"
   "srv/GetTheField.srv"
+
+  # other meassages
+  "msg/Point64.msg"
   "msg/Float32Stamped.msg"
   "msg/Float64Stamped.msg"
   "msg/Waypoints.msg"
@@ -44,14 +47,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/States.msg"
   "msg/Segment.msg"
   "msg/Segments.msg"
-  "msg/Swath.msg"
-  "msg/Swaths.msg"
+  "msg/Line.msg"
+  "msg/Lines.msg"
   "msg/Borders.msg"
-  "msg/PolygonArray.msg"
   "msg/Beacon.msg"
   "msg/Beacons.msg"
 
-  # geospatial messages
+  # map messages
   "msg/GeoJson.msg"
   "msg/Cordinate.msg"
   "msg/Cordinates.msg"
