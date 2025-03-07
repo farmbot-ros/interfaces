@@ -1,7 +1,7 @@
 std_msgs/Header header
 
-farmbot_interfaces/Point64[] loc_line
-farmbot_interfaces/Point64[] geo_line
+geometry_msgs/Point[] loc_line
+geometry_msgs/Point[] geo_line
 
 string uuid
 string robot

@@ -37,22 +37,22 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GoToField.srv"
   "srv/GetTheField.srv"
 
-  # other meassages
-  "msg/Point64.msg"
+  # basic meassages
   "msg/Float32Stamped.msg"
   "msg/Float64Stamped.msg"
-  "msg/Waypoints.msg"
+  # navigation messages
   "msg/Waypoint.msg"
+  "msg/Waypoints.msg"
   "msg/State.msg"
   "msg/States.msg"
   "msg/Segment.msg"
   "msg/Segments.msg"
+  # line messages
   "msg/Line.msg"
   "msg/Lines.msg"
-  "msg/Borders.msg"
+  # beacon messages
   "msg/Beacon.msg"
   "msg/Beacons.msg"
-
   # map messages
   "msg/GeoJson.msg"
   "msg/Cordinate.msg"
