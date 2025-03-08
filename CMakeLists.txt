@@ -14,6 +14,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
@@ -40,6 +41,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # basic meassages
   "msg/Float32Stamped.msg"
   "msg/Float64Stamped.msg"
+  # blockchain messages
+  "msg/Block.msg"
+  "msg/Chain.msg"
   # navigation messages
   "msg/Waypoint.msg"
   "msg/Waypoints.msg"
