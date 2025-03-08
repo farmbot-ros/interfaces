@@ -44,6 +44,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # blockchain messages
   "msg/Block.msg"
   "msg/Chain.msg"
+  "msg/Transaction.msg"
   # navigation messages
   "msg/Waypoint.msg"
   "msg/Waypoints.msg"

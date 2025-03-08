@@ -3,5 +3,5 @@ int64 index
 builtin_interfaces/Time timestamp
 string previous_hash
 string hash
-farmbot_interfaces/Beacon[] beacons
+farmbot_interfaces/Transaction[] transactions
 int64 nonce
