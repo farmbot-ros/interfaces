@@ -1,4 +1,4 @@
 # blockchain messages
-std_msgs/Header header
-std_msgs/String uuid
+string uuid
+builtin_interfaces/Time timestamp
 farmbot_interfaces/Block[] chain
