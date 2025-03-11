@@ -4,4 +4,5 @@ string encrypted_password
 ---
 bool success
 farmbot_interfaces/Chain chain
-string encrypted_message
+string message
+string message_signature

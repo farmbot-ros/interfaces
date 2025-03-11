@@ -1,0 +1,5 @@
+string robot_uuid
+---
+bool vote
+string message
+string message_signature
