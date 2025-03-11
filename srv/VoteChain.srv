@@ -1,5 +1,7 @@
 string robot_uuid
+string robot_to_join_uuid
 ---
 bool vote
 string message
 string message_signature
+string encrypted_phrase

@@ -47,6 +47,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Transaction.msg"
   "srv/JoinChain.srv"
   "srv/VoteChain.srv"
+  "srv/UpdateChain.srv"
   # navigation messages
   "msg/Waypoint.msg"
   "msg/Waypoints.msg"

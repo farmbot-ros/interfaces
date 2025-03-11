@@ -1,0 +1,5 @@
+# UpdateChain.srv
+string encrypted_passphrase
+farmbot_interfaces/Chain chain
+---
+bool success
