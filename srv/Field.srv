@@ -1,5 +1,0 @@
-string geojson_file
----
-int16 points
-sensor_msgs/NavSatFix[] geo_points
-geometry_msgs/Point[] loc_points

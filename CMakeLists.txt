@@ -35,7 +35,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Trigger.srv"
   "srv/Value.srv"
   "srv/Spawn.srv"
-  "srv/Field.srv"
 
 
   # basic meassages
@@ -48,6 +47,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/JoinChain.srv"
   "srv/VoteChain.srv"
   "srv/UpdateChain.srv"
+  # field messages
+  "msg/Field.msg"
   # navigation messages
   "msg/Waypoint.msg"
   "msg/Waypoints.msg"
