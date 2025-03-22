@@ -61,18 +61,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Line.msg"
   "msg/Lines.msg"
   # beacon messages
-  "msg/Beacon.msg"
-  "msg/Beacons.msg"
+  "msg/Agent/Agent.msg"
+  "msg/Agent/Agents.msg"
   # map messages
-  "msg/GeoJson.msg"
-  "msg/Cordinate.msg"
-  "msg/Cordinates.msg"
-  "msg/Geometry.msg"
-  "msg/Feature.msg"
-  "msg/Propertie.msg"
-  "msg/GeoTiff.msg"
-  "msg/Band.msg"
-  "msg/Grid.msg"
+  "msg/Map/GeoJson.msg"
+  "msg/Map/Cordinate.msg"
+  "msg/Map/Cordinates.msg"
+  "msg/Map/Geometry.msg"
+  "msg/Map/Feature.msg"
+  "msg/Map/Propertie.msg"
+  "msg/Map/GeoTiff.msg"
+  "msg/Map/Band.msg"
+  "msg/Map/Grid.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs sensor_msgs
 )
 
