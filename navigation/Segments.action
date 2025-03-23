@@ -1,9 +1,9 @@
 # Goal
-farmbot_interfaces/Segments mission
+Segments mission
 std_msgs/String controller
 ---
 # Result
 builtin_interfaces/Duration time_it_took
 ---
 #Feedback
-farmbot_interfaces/State state
+State state
