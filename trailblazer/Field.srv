@@ -4,4 +4,3 @@ Lines headlands
 Agent[] agents
 ---
 string message
-bool success

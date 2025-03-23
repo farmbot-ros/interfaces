@@ -3,4 +3,6 @@ float64 vehicle_coverage
 float64 path_angle
 ---
 string message
-bool success
+Lines border
+Lines swaths
+Lines headlands
