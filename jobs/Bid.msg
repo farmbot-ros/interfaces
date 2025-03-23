@@ -1,8 +1,8 @@
 builtin_interfaces/Time timestamp
 
-string job_id
-Agent agent
+string auction_id
 
-string next_job
+int64 bid
+Agent agent
 
 string signature

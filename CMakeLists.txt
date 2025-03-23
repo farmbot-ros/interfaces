@@ -54,7 +54,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "blockchain/UpdateChain.srv"
 
   "jobs/Job.msg"
-  "jobs/JobAck.msg"
+  "jobs/Auction.msg"
+  "jobs/Bid.msg"
 
   "field/Line.msg"
   "field/Lines.msg"

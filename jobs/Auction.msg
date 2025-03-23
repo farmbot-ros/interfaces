@@ -1,8 +1,7 @@
 builtin_interfaces/Time timestamp
 
-string job_id
+string auction_id
 string job_type
 KeyValue[] parameters
-Agent[] agents
 
 string signature
