@@ -63,6 +63,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "trailblazer/Line.msg"
   "trailblazer/Lines.msg"
   "trailblazer/FieldGen.srv"
+  "trailblazer/Field.srv"
 
   "cartograph/GeoJson.msg"
   "cartograph/Cordinate.msg"

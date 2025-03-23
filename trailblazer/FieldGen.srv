@@ -4,5 +4,3 @@ float64 path_angle
 ---
 string message
 bool success
-Lines border
-Lines swaths
