@@ -1,0 +1,4 @@
+Job the_job
+---
+bool success
+string message
