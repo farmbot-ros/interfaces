@@ -51,6 +51,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "lighthouse/blockchain/JoinChain.srv"
   "lighthouse/blockchain/VoteChain.srv"
   "lighthouse/blockchain/UpdateChain.srv"
+  "lighthouse/agents/Participant.msg"
   "lighthouse/agents/Agent.msg"
   "lighthouse/agents/Agents.msg"
 
