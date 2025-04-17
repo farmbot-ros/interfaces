@@ -1,4 +1,6 @@
 Job the_job
 ---
-bool success
 string message
+
+string    type
+uint8[]   data

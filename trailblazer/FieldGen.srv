@@ -3,6 +3,4 @@ float64 vehicle_coverage
 float64 path_angle
 ---
 string message
-Lines border
-Lines swaths
-Lines headlands
+Field field

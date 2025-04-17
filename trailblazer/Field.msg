@@ -1,6 +1,3 @@
 Lines border
 Lines swaths
 Lines headlands
-Agent[] agents
----
-string message
