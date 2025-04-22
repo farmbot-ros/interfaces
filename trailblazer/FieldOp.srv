@@ -1,5 +1,5 @@
-Field field
-Agent[] agents
+string geojson_file
+string[] agent_uuids
 ---
 string message
 Field[] field
